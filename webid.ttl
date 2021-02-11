@@ -2,13 +2,22 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix cert: <http://www.w3.org/ns/auth/cert#> .
 @prefix rdfs: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix wof: <http://wof.tools.dbpedia.org/vocab#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
 
 <> a foaf:PersonalProfileDocument ;
    foaf:maker <#this> ;
    foaf:primaryTopic <#this> .
 
 <#this> a foaf:Person ;
+   a dbo:DBpedian ;
+   owl:sameAs <https://global.dbpedia.org/id/3eGWH> ;
    foaf:name "Sebastian Hellmann";
+   foaf:nick "Wolf" ;
+   foaf:img <https://ldapweb.aksw.org/pic/e74e1b3e-27fe-102c-8214-2b7a227749ab> ;
+   
+   
 cert:key [
       a cert:RSAPublicKey;
       rdfs:label "databus key";
