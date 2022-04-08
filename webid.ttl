@@ -17,6 +17,7 @@
    foaf:nick "Wolf" ;
    foaf:img <https://ldapweb.aksw.org/pic/e74e1b3e-27fe-102c-8214-2b7a227749ab> ;
    foaf:account <http://localhost:3000/kurzum> ;
+   foaf:account <http://dev.databus.dbpedia.org/kurzum> ;
    
    
 cert:key [
