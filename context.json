@@ -13,4 +13,4 @@
     "currentProject": { "@id": "foaf:currentProject", "@type": "@id" },
     "workplaceHomepage": { "@id": "foaf:workplaceHomepage", "@type": "@id" }
   }
-  
+}  
