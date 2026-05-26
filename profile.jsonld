@@ -1,0 +1,18 @@
+{
+  "@context": "https://kurzum.github.io/context.json",
+  "@id": "https://kurzum.github.io/#me",
+  "@type": "Person",
+  "name": "Sebastian Hellmann",
+  "homepage": "https://kurzum.github.io/",
+  "img": "https://ldapweb.aksw.org/pic/e74e1b3e-27fe-102c-8214-2b7a227749ab",
+  "sameAs": [
+    "https://global.dbpedia.org/id/3eGWH",
+    "https://github.com/kurzum"
+  ],
+  "currentProject": [
+    "https://www.dbpedia.org/",
+    "https://databus.dbpedia.org/"
+  ],
+  "workplaceHomepage": "https://infai.org/",
+  "knows": []
+}
