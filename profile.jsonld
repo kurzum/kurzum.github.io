@@ -1,19 +1,15 @@
 {
-  "@context": "https://kurzum.github.io/context.json",
+  "@context": "https://kurzum.github.io/dbpedians/context.json",
   "@graph": [
     {
       "@id": "https://kurzum.github.io/profile.jsonld",
       "@type": "PersonalProfileDocument",
-      "maker": "https://dbpedians.dbpedia.org/e/kurzum#me",
-      "primaryTopic": "https://dbpedians.dbpedia.org/e/kurzum#me",
+      "maker": "https://kurzum.github.io/profile.jsonld#me",
+      "primaryTopic": "https://kurzum.github.io/profile.jsonld#me",
       "license": "https://dalicc.net/licenselibrary/CC-BY-4.0"
     },
     {
       "@id": "https://kurzum.github.io/profile.jsonld#me",
-      "sameAs": "https://dbpedians.dbpedia.org/e/kurzum#me"
-    },
-    {
-      "@id": "https://dbpedians.dbpedia.org/e/kurzum#me",
       "@type": [
         "DBpedian",
         "Person"
@@ -22,9 +18,11 @@
       "nick": "Wolf",
       "homepage": "https://kurzum.github.io/",
       "img": "https://ldapweb.aksw.org/pic/e74e1b3e-27fe-102c-8214-2b7a227749ab",
-      "sameAs": [
-        "https://kurzum.github.io/profile.jsonld#me",
-        "https://dblp.org/pid/47/2811",
+      "owl:sameAs": [
+        "https://dbpedians.dbpedia.org/id/kurzum#me",
+        "https://dblp.org/pid/47/2811"
+      ],
+      "foaf:account": [
         "https://github.com/kurzum"
       ],
       "workplaceHomepage": "https://infai.org/"
